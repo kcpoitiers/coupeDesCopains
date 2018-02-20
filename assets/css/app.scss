@@ -1,0 +1,21 @@
+$background: #ebebf5;
+
+body {
+
+    //transform: translateX(20px);
+}
+
+.entrance-container {
+  background: url('./clouds.jpg');
+}
+
+
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+  primary: #3F51B5, // The primary color of your application
+  accent: #F44336,
+  theme: dark // This can be dark or light
+));
+
+@import "~vue-material/dist/theme/all"; // Apply the theme
