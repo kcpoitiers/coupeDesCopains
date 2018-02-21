@@ -12,15 +12,10 @@
             <md-icon>face</md-icon> Nakama Cup </span>
         </div>
 
-        <div class="md-toolbar-section-end">
-          <md-button class="md-icon-button" @click="menuMoreVisible = !menuMoreVisible">
-            <md-icon>more_vert</md-icon>
-          </md-button>
-        </div>
       </div>
 
-      <div class="md-toolbar-row navbarFixed">
-        <div class="md-primary">
+      <div class="md-toolbar-row navbarFixed md-xsmall-hide md-small-hide">
+        <div class="md-primary md-xsmall-hide md-small-hide">
           <md-button :to="{name: 'home'}">Home</md-button>
           <md-button :to="{name: 'programme'}" class="md-primary">Programme</md-button>
           <md-button :to="{name: 'info'}">Info</md-button>
@@ -91,8 +86,7 @@ import Vue from 'vue'
 export default{
   data: function () {
     return {
-      menuVisible: false,
-      menuMoreVisible: false
+      menuVisible: false
     }
   },
 
@@ -104,9 +98,9 @@ export default{
 
 <style lang="scss" scoped>
   .md-app {
-    min-height: 400px;
+    min-height: 98vh;
     border: 1px solid rgba(#000, .12);
-  } // Demo purposes only
+  }
   .md-drawer {
     width: 230px;
     max-width: calc(100vw - 125px);

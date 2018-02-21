@@ -1,4 +1,5 @@
 <template>
+  <!-- <div id="layout" class="entrance" v-on:click="enterSite()"> -->
   <div id="layout" class="entrance" v-on:click="enterSite()">
     <Entrance></Entrance>
   </div>
