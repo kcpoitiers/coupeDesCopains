@@ -16,7 +16,7 @@
 
       <div class="md-toolbar-row navbarFixed md-xsmall-hide md-small-hide">
         <div class="md-primary md-xsmall-hide md-small-hide">
-          <md-button :to="{name: 'home'}">Home</md-button>
+          <md-button :to="{name: 'home'}" class="md-primary">Home</md-button>
           <md-button :to="{name: 'programme'}" class="md-primary">Programme</md-button>
           <md-button :to="{name: 'info'}">Info</md-button>
           <md-button :to="{name: 'media'}" class="md-primary">Media</md-button>
@@ -26,7 +26,7 @@
       </div>
     </md-app-toolbar>
 
-    <md-app-drawer class="md-right" :md-active.sync="menuMoreVisible">
+    <!-- <md-app-drawer class="md-right" :md-active.sync="menuMoreVisible">
       <md-toolbar class="md-transparent" md-elevation="0">Navigation</md-toolbar>
 
       <md-list>
@@ -40,7 +40,7 @@
           <span class="md-list-item-text">Sent Mail</span>
         </md-list-item>
       </md-list>
-    </md-app-drawer>
+    </md-app-drawer> -->
 
     <md-app-drawer :md-active.sync="menuVisible" md-persistent="mini">
       <md-toolbar class="md-transparent" md-elevation="0">
@@ -81,19 +81,19 @@
 </template>
 
 <script>
-import Vue from 'vue'
+  import Vue from 'vue'
 
-export default{
-  data: function () {
-    return {
-      menuVisible: false
+  export default{
+    data: function () {
+      return {
+        menuVisible: false
+      }
+    },
+
+    methods: {
+      toggleMenu(){ this.menuVisible = !this.menuVisible }
     }
-  },
-
-  methods: {
-    toggleMenu(){ this.menuVisible = !this.menuVisible }
-  },
-}
+  }
 </script>
 
 <style lang="scss" scoped>

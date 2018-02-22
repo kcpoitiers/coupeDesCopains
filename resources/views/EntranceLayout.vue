@@ -1,8 +1,10 @@
 <template>
-  <!-- <div id="layout" class="entrance" v-on:click="enterSite()"> -->
-  <div id="layout" class="entrance">
+  <router-link :to="{name: 'home'}">
+  <div id="layout" class="entrance" @click="enterSite()">
+  <!-- <div id="layout" class="entrance"> -->
     <Entrance></Entrance>
   </div>
+  </router-link>
 </template>
 
 <script>

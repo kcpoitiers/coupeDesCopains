@@ -36,18 +36,20 @@ let config = {
     main: ['./assets/css/app.scss', './src/main.js']
   },
   output: {
-    // config 1
-    filename: "./dist/main.js",
-    // // config 2
-    // path: path.resolve(__dirname, 'dist/'),
-    // filename: dev ? '[name].js' : '[name].[chunkhash:8].js',
-    // publicPath: './dist/'
+    // // config 1
+    // filename: "./dist/main.js",
+    // config 2
+    path: path.resolve(__dirname, 'dist/'),
+    filename: dev ? '[name].js' : '[name].[chunkhash:8].js',
+    publicPath: './dist/'
   },
   resolve: {
     extensions: ['.js', '.ts', '.vue'],
     alias: {
       '@css': path.resolve('./assets/css/'),
       '@js': path.resolve('./assets/js/'),
+      '@src': path.resolve(__dirname, 'src/'),
+      '@': path.resolve(__dirname, './'),
       '@ress': path.resolve(__dirname, 'resources/'),
       '@views': path.resolve(__dirname, 'resources/views/'),
       '@components': path.resolve(__dirname, 'src/components/'),
