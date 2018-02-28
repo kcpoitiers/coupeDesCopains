@@ -7,20 +7,19 @@ import Home from '@views/Home.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
-      path: './',
+      path: '',
       name: 'entrance'
       // component: Home
     },
     {
-      path: './home',
+      path: 'home',
       name: 'home',
       component: Home
     },
     {
-      path: './programme',
+      path: 'programme',
       name: 'programme',
       component: Programme
     }

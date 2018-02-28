@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="{name: 'home'}">
+  <router-link :to="{name: 'programme'}">
   <div id="layout" class="entrance" @click="enterSite()">
   <!-- <div id="layout" class="entrance"> -->
     <Entrance></Entrance>

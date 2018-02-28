@@ -7,8 +7,13 @@
         <img class="title-nakamacup md-alignment-center-center" alt="title NakamaCup" 
           src="https://99cbae9365cf9ad7a86e-5a85c502fd986ac2593f51439f5144f7.ssl.cf3.rackcdn.com/opti/desktop-bande1-5a59fcab0a455.png"
         />
-        <Countdown deadline="February 28, 2018" class="md-alignment-center-center countdown md-subheading"></Countdown>
+        <div>
+          <md-icon class="md-size-4x md-accent md-elevation-2 md-with-hover">open_in_browser</md-icon>
+        </div>
+        
+        <!-- <Countdown deadline="February 28, 2018" class="md-alignment-center-center countdown md-subheading"></Countdown> -->
       </div>
+      
       
       <div class="md-layout-item md-size-20"></div>
     </div>
@@ -63,7 +68,6 @@
   .title-nakamacup {
     position: relative;
   }
-
 </style>
 
 <style lang="scss">

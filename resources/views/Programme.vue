@@ -1,9 +1,9 @@
 <template>
   <div id="programme" class="md-layout">
 
-    <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center">
+    <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center mcards">
 
-      <md-card >
+      <md-card class="card">
       <md-ripple>
         <md-card-header>
           <div class="md-title">Nakama Cup</div>
@@ -41,112 +41,79 @@
 
     </div>
 
-    <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center">
+    <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center mcards">
       
 
-      <md-card >
+      <md-card class="card">
       <md-ripple>
         <md-card-header>
-          <div class="md-title">Programme Festival Japon</div>
+          <div class="md-title">Catégories</div>
         </md-card-header>
 
         <md-card-content>
 
           <p class="md-subheading">
-            Vendredi 6 avril
+            Compétition individuelle
           </p>
 
           <p class="md-body-1">
             <ul>
-              <li> 18h15-18h45 Inauguration </li>
-              <li> 18h45-19h30 Projection du documentaire sur l’école primaire japonaise "Ecole pour tous"</li>
-              <li> 19h30-20h30 Conférence-débat </li>
+              <li> Adultes -  18 ans et plus   </li>
+              <li> Samouraïs - années de naissance 2007-2008</li>
+              <li> Benjamins - années de naissance 2005-2006 </li>
+              <li> Minimes - années de naissance 2003-2004 </li>
+              <li> Cadets - années de naissance 2001-2002 </li>
+              <li> Juniors - années de naissance 1998-1999-2000 </li>
             </ul>
           </p>
 
-          <p class="md-body-2">
-            Lieu : cinéma Dietrich, 34 Boulevard Chasseigne, 86000 Poitiers
-            <br/> Entrée payante : 5,50 Euros dans la limite des places disponibles
-            <br/> Conférencier : Jean-François Sabouret en présence de :
-            <ul>
-              <li> M. Alain Claeys Maire de Poitiers </li>
-              <li> M. Kohei Okawa, Conseiller chargé des Aff. culturelles et sportives (Ambassade du Japon) </li>
-              <li> M. Bruno Lacoste, Consul Honoraire du Japon à Bordeaux (Nouvelle Aquitaine) </li>
-              <li> M. Didier Moreau, Directeur Général de l’Espace Mendès France </li>
-            </ul>
+          <p class="md-subheading">
+            Compétition équipe
           </p>
+
           <p class="md-body-1">
-            20h30-00h00 SOIREE JEU VIDEO-CONCERT
             <ul>
-              <li> 20h30-21h00 : accueil</li>
-              <li> 21h00-00h00 : soirée jeu-concert consacré au jeu vidéo japonais : "Le pays du pixel levant"</li>
+              <li> Adultes : 18 ans et plus, équipes de 3 </li>
+              <li>Jeunes  :
+              <ul> 
+                <li>Sempo - Samouraï/Benjamin </li>
+                <li>Chuken - Minime/Cadet </li>
+                <li>Taisho - Juniors </li>
+              </ul>
+              </li>
             </ul>
           </p>
 
-          <p class="md-body-2">
-            Lieu : Espace Mendes France <br />
-            Entrée libre
+          <p class="md-subheading">
+            Conditions d’inscription 
+          </p>
+
+          <p class="md-body-1">
+            Être âgé de 18 ans pour l’Open et avoir l’autorisation parentale pour les mineurs. <br />
+            Pour la compétition par équipe, il y a la possibilité de monter des équipes sur place avec les ronins présents.
           </p>
         </md-card-content>
       </md-ripple>
     </md-card>
-
   
     </div>
 
-    <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center"> </div>
-
-     <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center">
-      
-
-      <md-card >
+    <div class="md-layout-item md-size-100 md-small-size-100 md-alignment-center-center mcards">
+      <md-card>
       <md-ripple>
         <md-card-header>
-          <div class="md-title">Programme Festival Japon</div>
+          <div class="md-title">Ouverture des inscriptions</div>
         </md-card-header>
 
         <md-card-content>
 
-          <p class="md-subheading">
-            Vendredi 6 avril
-          </p>
-
           <p class="md-body-1">
-            <ul>
-              <li> 18h15-18h45 Inauguration </li>
-              <li> 18h45-19h30 Projection du documentaire sur l’école primaire japonaise "Ecole pour tous"</li>
-              <li> 19h30-20h30 Conférence-débat </li>
-            </ul>
+            Les inscriptions seront ouvertes le dimanche 04 mars 2018 via un formulaire google ou par mail à travers l'onglet contact qui sera par la suite
           </p>
 
-          <p class="md-body-2">
-            Lieu : cinéma Dietrich, 34 Boulevard Chasseigne, 86000 Poitiers
-            <br/> Entrée payante : 5,50 Euros dans la limite des places disponibles
-            <br/> Conférencier : Jean-François Sabouret en présence de :
-            <ul>
-              <li> M. Alain Claeys Maire de Poitiers </li>
-              <li> M. Kohei Okawa, Conseiller chargé des Aff. culturelles et sportives (Ambassade du Japon) </li>
-              <li> M. Bruno Lacoste, Consul Honoraire du Japon à Bordeaux (Nouvelle Aquitaine) </li>
-              <li> M. Didier Moreau, Directeur Général de l’Espace Mendès France </li>
-            </ul>
-          </p>
-          <p class="md-body-1">
-            20h30-00h00 SOIREE JEU VIDEO-CONCERT
-            <ul>
-              <li> 20h30-21h00 : accueil</li>
-              <li> 21h00-00h00 : soirée jeu-concert consacré au jeu vidéo japonais : "Le pays du pixel levant"</li>
-            </ul>
-          </p>
-
-          <p class="md-body-2">
-            Lieu : Espace Mendes France <br />
-            Entrée libre
-          </p>
         </md-card-content>
       </md-ripple>
     </md-card>
-
-  
     </div>
 
   </div>
@@ -157,6 +124,19 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
+  .md-body-1, .md-body-2 {
+    margin-top:10px;
+  }
+  .md-subheading {
+    margin-top:20px;
+    text-decoration: underline;
+  }
+  li {
+    list-style-type: circle;
+  }
+  .mcards {
+    padding : 10px 5px;
+  }
 
 </style>

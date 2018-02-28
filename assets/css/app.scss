@@ -14,9 +14,9 @@ body {
 @import "~vue-material/dist/theme/engine"; // Import the theme engine
 
 @include md-register-theme("default", (
-  primary: #3F51B5, // The primary color of your application
+  primary: rgb(82, 103, 221), // The primary color of your application
   accent: #F44336,
-  theme: dark // This can be dark or light
+  theme: light // This can be dark or light
 ));
 
 @import "~vue-material/dist/theme/all"; // Apply the theme

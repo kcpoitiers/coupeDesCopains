@@ -18,12 +18,19 @@
 
           <div class="md-toolbar-row navbarFixed md-xsmall-hide md-small-hide">
             <div class="md-primary md-xsmall-hide md-small-hide">
-              <md-button :to="{name: 'home'}" class="md-primary">Home</md-button>
+              <!-- <md-button :to="{name: 'home'}" class="md-primary">Home</md-button>
               <md-button :to="{name: 'programme'}" class="md-primary">Programme</md-button>
               <md-button :to="{name: 'info'}">Info</md-button>
               <md-button :to="{name: 'media'}" class="md-primary">Media</md-button>
               <md-button :to="{name: 'contact'}">Contact</md-button>
-              <md-button :to="{name: 'matsuri'}" class="md-primary">Festival Matsuri</md-button>
+              <md-button :to="{name: 'festival'}" class="md-primary">Festival Japon</md-button> -->
+
+              <md-button class="md-primary">Accueil</md-button>
+              <md-button :to="{name: 'programme'}" class="md-primary">Programme</md-button>
+              <md-button class="md-primary">Info</md-button>
+              <md-button class="md-primary">Media</md-button>
+              <md-button class="md-primary">Contact</md-button>
+              <md-button class="md-primary">Festival Japon</md-button>
             </div>
           </div>
         </md-app-toolbar>
@@ -44,8 +51,8 @@
           </md-list>
         </md-app-drawer> -->
 
-        <md-app-drawer :md-active.sync="menuVisible" md-persistent="mini">
-          <md-toolbar class="md-transparent" md-elevation="0">
+        <md-app-drawer :md-active.sync="menuVisible" md-small-hide>
+          <md-toolbar class="md-transparent" md-elevation="2" md-small-hide>
             <span>Navigation</span>
 
             <div class="md-toolbar-section-end">
@@ -62,19 +69,25 @@
             </md-list-item>
 
             <md-list-item>
-              <md-icon>send</md-icon>
-              <span class="md-list-item-text">Sent Mail</span>
+              <md-icon>mail</md-icon>
+              <span class="md-list-item-text">Contact</span>
             </md-list-item>
 
             <md-list-item>
-              <md-icon>delete</md-icon>
-              <span class="md-list-item-text">Trash</span>
+              <md-icon>navigation</md-icon>
+              <span class="md-list-item-text">Info pratique</span>
             </md-list-item>
 
             <md-list-item>
-              <md-icon>error</md-icon>
-              <span class="md-list-item-text">Spam</span>
+              <md-icon>announcement</md-icon>
+              <span class="md-list-item-text">Annonce</span>
             </md-list-item>
+
+            <md-list-item>
+              <md-icon>share</md-icon>
+              <span class="md-list-item-text">Partager</span>
+            </md-list-item>
+
           </md-list>
         </md-app-drawer>
          <md-app-content>
