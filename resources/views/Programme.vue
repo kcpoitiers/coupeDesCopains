@@ -1,15 +1,11 @@
 <template>
   <div id="programme" class="md-layout">
 
-    <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center mcards">
+    <div class="md-layout-item md-size-100 md-small-size-100 md-alignment-center-center">
+      <div class="md-layout">
 
-      <md-card class="card">
-      <md-ripple>
-        <md-card-header>
+        <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center planning">
           <div class="md-title">Nakama Cup</div>
-        </md-card-header>
-
-        <md-card-content>
           <p class="md-subheading">
             Samedi 7 avril - Compétition individuelle
           </p>
@@ -35,9 +31,16 @@
               <li> 16H00 – Fin prévisionnelle </li>
             </ul>
           </p>
-        </md-card-content>
-      </md-ripple>
-    </md-card>
+        </div>
+
+        <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center planning">
+          PHOTO
+        </div>
+
+      </div>
+
+          
+ 
 
     </div>
 
@@ -45,7 +48,6 @@
       
 
       <md-card class="card">
-      <md-ripple>
         <md-card-header>
           <div class="md-title">Catégories</div>
         </md-card-header>
@@ -93,14 +95,12 @@
             Pour la compétition par équipe, il y a la possibilité de monter des équipes sur place avec les ronins présents.
           </p>
         </md-card-content>
-      </md-ripple>
     </md-card>
   
     </div>
 
     <div class="md-layout-item md-size-100 md-small-size-100 md-alignment-center-center mcards">
       <md-card>
-      <md-ripple>
         <md-card-header>
           <div class="md-title">Ouverture des inscriptions</div>
         </md-card-header>
@@ -112,7 +112,6 @@
           </p>
 
         </md-card-content>
-      </md-ripple>
     </md-card>
     </div>
 
@@ -139,4 +138,7 @@ export default {}
     padding : 10px 5px;
   }
 
+  .planning {
+    text-align:center;
+  }
 </style>

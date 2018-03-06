@@ -10,8 +10,7 @@
         <div>
           <md-icon class="md-size-4x md-accent md-elevation-2 md-with-hover">open_in_browser</md-icon>
         </div>
-        
-        <!-- <Countdown deadline="February 28, 2018" class="md-alignment-center-center countdown md-subheading"></Countdown> -->
+      
       </div>
       
       
@@ -22,11 +21,9 @@
 
 <script>
   import Vue from 'vue'
-  import Countdown from 'vuejs-countdown'
   import $ from 'jquery'
 
   export default {
-    components: { Countdown },
 
     mounted(){
 
@@ -53,7 +50,7 @@
   }
 
   .entrance-container{
-    min-height: 100vh;
+    min-height: 99.7vh;
   }
 
   .md-layout.md-gutter {
@@ -74,26 +71,9 @@
 
   @import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
 
-  #entrance {
-    color: #191919;
-  }
 
-  #entrance .vue-countdown .digit{
-    font-family: Roboto;
-    font-weight: 200;
-    font-size: 3vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
-  #entrance .vue-countdown .text{
-    font-family: Roboto;
-    font-weight: 200;
-    font-size: 2vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
-  #entrance .vue-countdown li::after{
-    display: none;
+  .router-link-active{
+    background: red;
   }
 
   

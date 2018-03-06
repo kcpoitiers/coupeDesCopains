@@ -3,15 +3,16 @@ import Router from 'vue-router'
 
 import Programme from '@views/Programme.vue'
 import Home from '@views/Home.vue'
+import Entrance from '@views/Entrance.vue'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '',
-      name: 'entrance'
-      // component: Home
+      path: '/',
+      name: 'entrance',
+      component: Entrance
     },
     {
       path: 'home',
