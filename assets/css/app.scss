@@ -1,8 +1,6 @@
-$background: #ebebf5;
-
 body {
-
-    //transform: translateX(20px);
+  // overflow-y: hidden;
+  //transform: translateX(20px);
 }
 
 .entrance-container {
@@ -10,6 +8,33 @@ body {
   background: url('https://99cbae9365cf9ad7a86e-5a85c502fd986ac2593f51439f5144f7.ssl.cf3.rackcdn.com/opti/desktop-fonds2-5a59fad89cac1.jpg');
 }
 
+.title-t1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.md-body-1,
+.md-body-2 {
+  margin-top: 10px;
+}
+
+.md-subheading {
+  margin-top: 20px;
+  font-family: 'Mina', sans-serif;
+  font-weight: thin;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mina|Roboto');
 
 @import "~vue-material/dist/theme/engine"; // Import the theme engine
 

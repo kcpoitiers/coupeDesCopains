@@ -1,15 +1,13 @@
 <template>
   <div class="page-containerjoe">
 
-    <div class="page-container"  v-if="$route.name === 'entrance'" >
+    <div v-if="$route.name === 'entrance'" >
       <router-link :to="{name: 'programme'}">
-
-            <router-view></router-view>
-
+        <router-view></router-view>
       </router-link>
     </div>
 
-    <div class="page-container" v-else>
+    <div v-else>
        <div class="navbar">
         <md-app md-waterfall md-mode="fixed">
         <md-app-toolbar class="md-large md-dense md-primary">
@@ -39,7 +37,7 @@
                 <md-button :to="{name: 'programme'}" class="md-primary">Programme</md-button>
                 <md-button class="md-primary">Info</md-button>
                 <md-button class="md-primary">Media</md-button>
-                <md-button class="md-primary">Contact</md-button>
+                <md-button :to="{name: 'contact'}" class="md-primary">Contact</md-button>
                 <md-button class="md-primary">Festival Japon</md-button>
               </div>
             </div>
