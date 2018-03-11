@@ -8,7 +8,7 @@
 
       <div class="md-layout-item md-size-70 md-small-size-100 md-alignment-center-center md-layout md-elevation-1 textCenter">
         <!-- Slide 1 -->
-        <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center slide slide-1">
+        <div class="md-layout-item md-size-70 md-small-size-100 md-alignment-center-center slide slidep slide-1">
           
           <p class="md-subheading margin10">
             Samedi 7 avril - Compétition individuelle
@@ -39,22 +39,22 @@
             </ul>
           </p>
         </div>
-        <div class="md-layout-item md-size-50 md-small-size-100 md-alignment-center-center slide slide-1">
-          <p>Slide 1 2 - photo</p>
+        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-1">
+          <img  src="https://99cbae9365cf9ad7a86e-5a85c502fd986ac2593f51439f5144f7.ssl.cf3.rackcdn.com/img-20180309-182638-5aa59687765c8.jpg" />
         </div>
 
         <!-- Slide 2 -->
-        <div class="md-layout-item md-size-100 md-small-size-100 md-alignment-center-center textCenter slide slide-2">
-            <p>Slide 2 - photo men prets</p>
+        <div class="md-layout-item md-size-100 md-small-size-100 md-alignment-center-center textCenter slide slidep slide-2">
+            <img  src="https://99cbae9365cf9ad7a86e-5a85c502fd986ac2593f51439f5144f7.ssl.cf3.rackcdn.com/21761851-754489634741144-2772585416364817345-n-5aa598dcee63f.jpg" />
         </div>
 
         <!-- Slide 3 -->
-        <div class="md-layout-item md-size-40 md-small-size-100 md-alignment-center-center slide slide-3">
+        <div class="md-layout-item md-size-40 md-small-size-100 md-alignment-center-center slide slidep slide-3">
           <p class="md-subheading margin10">
             Compétition individuelle
           </p>
           <p class="md-body-2 margin10">
-            Catégories jeunes
+            Catégories jeunes*
           </p>
           <p class="md-body-1">
             <ul>
@@ -74,15 +74,13 @@
             </ul>
           </p>
         </div>
-        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-3">
-          <p>Slide 3 2 - photo arbitre</p>
-        </div>
-        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-3">
+        
+        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slidep slide-3">
           <p class="md-subheading margin10">
             Durée des combats
           </p>
           <p class="md-body-2 margin10">
-            Catégories jeunes
+            Catégories jeunes*
           </p>
           <p class="md-body-1">
             <ul>
@@ -103,11 +101,18 @@
           </p>
         </div>
 
+        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-3">
+          <img src="https://99cbae9365cf9ad7a86e-5a85c502fd986ac2593f51439f5144f7.ssl.cf3.rackcdn.com/shinai-ronds-5aa597c00d43d.jpg" />
+        </div>
+
 
         <!-- Slide 4 -->
-        <div class="md-layout-item md-size-40 md-small-size-100 md-alignment-center-center slide slide-4">
+        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-4">
+          <img src="https://99cbae9365cf9ad7a86e-5a85c502fd986ac2593f51439f5144f7.ssl.cf3.rackcdn.com/kids-shinai-5aa597af89247.jpg"/>
+        </div>
+        <div class="md-layout-item md-size-40 md-small-size-100 md-alignment-center-center slide slidep slide-4">
           <p class="md-subheading margin10">
-            Compétition équipe jeune
+            Compétition équipe jeune*
           </p>
           <p class="md-body-2 margin10">
             Composition
@@ -128,10 +133,8 @@
             </ul>
           </p>
         </div>
-        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-4">
-          <p>Slide 3 2 - photo commissaires</p>
-        </div>
-        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slide-4">
+        
+        <div class="md-layout-item md-size-30 md-small-size-100 md-alignment-center-center slide slidep slide-4">
           <p class="md-subheading margin10">
             Compétition équipe adulte
           </p>
@@ -144,7 +147,7 @@
             </ul>
           </p>
           <p class="md-body-2 margin10">
-            Temps
+            Durée des combats
           </p>
           <p class="md-body-1">
             <ul>
@@ -155,7 +158,16 @@
 
         <!-- Slide 5 -->
         <div class="md-layout-item md-size-100 md-small-size-100 md-alignment-center-center textCenter slide slide-5">
-            <p>Slide 5 - photo design Nakama cup</p>
+            <p class="md-subheading margin10">
+            Nota Bene
+          </p>
+          <p class="md-body-1">
+            <ul>
+              <li> *En fonction des inscriptions la composition peut être amenée à changer pour que tous les enfants puissent faire la compétition dans les meilleurs conditions possibles.   </li>
+              <li>Être âgé de 18 ans pour l’Open et avoir l’autorisation parentale pour les mineurs. 
+Pour la compétition par équipe, il y a la possibilité de monter des équipes sur place avec les ronins présents.</li>
+            </ul>
+          </p>
         </div>
 
       </div>
@@ -172,31 +184,31 @@
 export default {}
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
  
-
-  .slide {
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+  .slidep {
     padding: 50px 30px;
   }
 
   .slide-1 {
-    border: 1px solid rgb(8, 127, 131);
+
   }
 
   .slide-2 {
-    border: 1px solid rgb(65, 0, 71);
+    background-color: md-get-palette-color(grey, 500);
   }
 
   .slide-3 {
-    border: 1px solid rgb(8, 131, 63);
+    
   }
 
   .slide-4 {
-    border: 1px solid rgb(8, 127, 131);
+
   }
 
   .slide-5 {
-    border: 1px solid rgb(70, 39, 5);
+    background-color: md-get-palette-color(indigo, 50);
   }
 
   .margin10 {

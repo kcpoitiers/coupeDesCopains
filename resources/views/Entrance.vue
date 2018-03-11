@@ -70,12 +70,10 @@
 <style lang="scss">
 
   @import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
-
-
-  .router-link-active{
-    background: red;
-  }
-
+  @import "~vue-material/dist/theme/engine"; // Import the theme engine
   
+  .router-link-active{
+   background: md-get-palette-color(green, A400);
+  }
 </style>
 

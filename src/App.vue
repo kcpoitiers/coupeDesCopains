@@ -2,7 +2,7 @@
   <div class="page-containerjoe">
 
     <div v-if="$route.name === 'entrance'" >
-      <router-link :to="{name: 'programme'}">
+      <router-link :to="{name: 'accueil'}">
         <router-view></router-view>
       </router-link>
     </div>
@@ -33,12 +33,13 @@
                 <md-button :to="{name: 'contact'}">Contact</md-button>
                 <md-button :to="{name: 'festival'}" class="md-primary">Festival Japon</md-button> -->
 
-                <md-button class="md-primary">Accueil</md-button>
+                <md-button :to="{name: 'accueil'}" class="md-primary">Accueil</md-button>
                 <md-button :to="{name: 'programme'}" class="md-primary">Programme</md-button>
-                <md-button class="md-primary">Info</md-button>
-                <md-button class="md-primary">Media</md-button>
+                <md-button :to="{name: 'inscription'}" class="md-primary">Inscription</md-button>
+                <md-button :to="{name: 'info'}" class="md-primary">Info</md-button>
+                <!-- <md-button class="md-primary">Media</md-button> -->
                 <md-button :to="{name: 'contact'}" class="md-primary">Contact</md-button>
-                <md-button class="md-primary">Festival Japon</md-button>
+                <md-button :to="{name: 'festival'}" class="md-primary">Festival Japon</md-button>
               </div>
             </div>
           </md-app-toolbar>
@@ -56,28 +57,45 @@
 
             <md-list>
               <md-list-item class="md-list-item-height">
+                <md-icon>home</md-icon>
+                <router-link :to="{name: 'accueil'}">
+                  <span class="md-list-item-text txtMenu">Accueil</span>
+                </router-link>
+              </md-list-item>
+
+              <md-list-item>
+                <md-icon>view_agenda</md-icon>
+                <router-link :to="{name: 'programme'}">
+                 <span class="md-list-item-text txtMenu">Programme</span>
+                </router-link>
+              </md-list-item>
+
+              <md-list-item>
                 <md-icon>assignment</md-icon>
-                <span class="md-list-item-text">Inscription</span>
+                <router-link :to="{name: 'inscription'}">
+                  <span class="md-list-item-text txtMenu">Inscription</span>
+                </router-link>
+              </md-list-item>
+
+              <md-list-item>
+                <md-icon>hotel</md-icon>
+                <router-link :to="{name: 'info'}">
+                  <span class="md-list-item-text txtMenu">Infos pratiques</span>
+                </router-link>
               </md-list-item>
 
               <md-list-item>
                 <md-icon>mail</md-icon>
-                <span class="md-list-item-text">Contact</span>
+                <router-link :to="{name: 'contact'}">
+                  <span class="md-list-item-text txtMenu">Contact</span>
+                </router-link>
               </md-list-item>
 
               <md-list-item>
-                <md-icon>navigation</md-icon>
-                <span class="md-list-item-text">Info pratique</span>
-              </md-list-item>
-
-              <md-list-item>
-                <md-icon>announcement</md-icon>
-                <span class="md-list-item-text">Annonce</span>
-              </md-list-item>
-
-              <md-list-item>
-                <md-icon>share</md-icon>
-                <span class="md-list-item-text">Partager</span>
+                <md-icon>party_mode</md-icon>
+                <router-link :to="{name: 'festival'}">
+                  <span class="md-list-item-text txtMenu">Festival</span>
+                </router-link>
               </md-list-item>
 
             </md-list>
@@ -152,4 +170,7 @@
     height: 48px;
   }
 
+  .txtMenu {
+    color :rgba(0, 0, 0, 0.87);
+  }
 </style>

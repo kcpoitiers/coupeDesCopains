@@ -36,12 +36,12 @@ let config = {
     main: ['./assets/css/app.scss', './src/main.js']
   },
   output: {
-    // // config 1
-    filename: "./dist/main.js",
+    // config 1
+    // filename: "./dist/main.js"
     // config 2
-    // path: path.resolve(__dirname, 'dist/'),
-    // filename: dev ? '[name].js' : '[name].[chunkhash:8].js',
-    // publicPath: './dist/'
+    path: path.resolve(__dirname, 'dist/'),
+    filename: dev ? '[name].js' : '[name].[chunkhash:8].js',
+    publicPath: './dist/'
   },
   resolve: {
     extensions: ['.js', '.ts', '.vue'],

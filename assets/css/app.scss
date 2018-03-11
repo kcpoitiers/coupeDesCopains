@@ -39,9 +39,13 @@ li {
 @import "~vue-material/dist/theme/engine"; // Import the theme engine
 
 @include md-register-theme("default", (
-  primary: rgb(82, 103, 221), // The primary color of your application
-  accent: #F44336,
+  primary: md-get-palette-color(indigo, 500), // The primary color of your application
+  accent: md-get-palette-color(green, A400),
   theme: light // This can be dark or light
 ));
 
 @import "~vue-material/dist/theme/all"; // Apply the theme
+
+.router-link-active{
+  background: md-get-palette-color(green, A400);
+}
