@@ -20,7 +20,7 @@
               <li> 12h00 – contrôle des shinaïs </li>
               <li> 13H00 – début de la compétition</li>
               <li> 17H30 – fin prévisionnelle </li> 
-              <li> 18H/19H : démonstration d’arts martiaux   </li> 
+              <li> 18H/19H – ji-keiko </li> 
 
             </ul>
           </p>
@@ -70,7 +70,9 @@
           </p>
           <p class="md-body-1">
             <ul>
-              <li> Adultes femmes et hommes, kyu et dan</li>
+              <li> Open yudansha (femmes & hommes)</li>
+              <li> Open kyu (femmes & hommes)</li>
+              <li> Open femmes (kyushas & yudanshas)</li>
             </ul>
           </p>
         </div>
@@ -119,9 +121,10 @@
           </p>
           <p class="md-body-1">
             <ul>
-              <li> Sempo : Samouraï/Benjamin/Minime</li>
-              <li> Chuken : Minime/Cadet/Junior </li>
-              <li> Taisho : Cadet/Juniors </li>
+              <li> Sempo : Samouraï</li>
+              <li> Chuken : Benjamin</li>
+              <li> Fukusho : Cadet/Espoir </li>
+              <li> Taisho : Juniors </li>
             </ul>
           </p>
           <p class="md-body-2 margin10">
